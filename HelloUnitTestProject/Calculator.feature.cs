@@ -118,7 +118,7 @@ this.ScenarioSetup(scenarioInfo);
         [TechTalk.SpecRun.TestRunCleanup()]
         public virtual void TestRunCleanup()
         {
-TechTalk.SpecFlow.TestRunnerManager.GetTestRunner().OnTestRunEnd();
+            TechTalk.SpecFlow.TestRunnerManager.GetTestRunner().OnTestRunEnd();
         }
     }
 }
